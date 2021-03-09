@@ -1,0 +1,13 @@
+.singleProduct {
+    width: 90%;
+    max-width: 1170px;
+    margin: 3rem auto;
+}
+
+@media screen and (min-width: 768px) {
+    .singleProduct {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+}

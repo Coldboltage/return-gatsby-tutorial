@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", serif
+}
+
+.images {
+    text-align: center;
+    text-transform: capitalize;
+    width: 80%;
+    margin: 0 auto 10rem auto;
+}
+
+.single-image {
+    border: 3px solid red;
+    padding: 1rem 0;
+}
+
+@media screen and (min-width: 922px) {
+    .images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+    }
+}
